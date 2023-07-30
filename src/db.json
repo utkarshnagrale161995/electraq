@@ -1,0 +1,139 @@
+{
+  "utilities": [
+    {
+      "id": 1001,
+      "itemName": "Led Lights",
+      "powerConsumption": "20",
+      "quantity": "0"
+    },
+    {
+      "id": 1002,
+      "itemName": "Celing Fan",
+      "powerConsumption": "80",
+      "quantity": "0"
+    },
+    {
+      "id": 1003,
+      "itemName": "Refrigerator",
+      "powerConsumption": "160",
+      "quantity": "0"
+    },
+    {
+      "id": 1004,
+      "itemName": "Television",
+      "powerConsumption": "150",
+      "quantity": "0"
+    },
+    {
+      "id": 1005,
+      "itemName": "Geyser",
+      "powerConsumption": "1000",
+      "quantity": "0"
+    },
+    {
+      "id": 1006,
+      "itemName": "Washing Machine",
+      "powerConsumption": "500",
+      "quantity": "0"
+    }
+  ],
+  "applications": [
+    {
+      "name": "Saikat Nath",
+      "phnum": "8765432",
+      "emailid": "saikat@gmail.com",
+      "address": "Banglore",
+      "powerdemand": "1910",
+      "id": 1001
+    },
+    {
+      "name": "Rahul",
+      "phnum": "2345678",
+      "emailid": "rahul@gmail.com",
+      "address": "Maharashtra",
+      "powerdemand": "1500",
+      "id": 1002
+    },
+    {
+      "name": "Sunny",
+      "phnum": "2341567",
+      "emailid": "sunny@gmail.com",
+      "address": "Maharashtra",
+      "powerdemand": "1000",
+      "id": 1003
+    },
+    {
+      "name": "Sunny1",
+      "phnum": "2341567",
+      "emailid": "sunny@gmail.com",
+      "address": "Maharashtra",
+      "powerdemand": "1000",
+      "id": 1004
+    },
+    {
+      "name": "Sunny2",
+      "phnum": "2341567",
+      "emailid": "sunny@gmail.com",
+      "address": "Maharashtra",
+      "powerdemand": "1000",
+      "id": 1005
+    },
+    {
+      "name": "Sunny3",
+      "phnum": "2341567",
+      "emailid": "sunny@gmail.com",
+      "address": "Maharashtra",
+      "powerdemand": "1000",
+      "id": 1006
+    },
+    {
+      "name": "Sunny4",
+      "phnum": "2341567",
+      "emailid": "sunny@gmail.com",
+      "address": "Maharashtra",
+      "powerdemand": "1000",
+      "id": 1007
+    },
+    {
+      "name": "Sunny",
+      "phnum": "2341567",
+      "emailid": "sunny@gmail.com",
+      "address": "Maharashtra",
+      "powerdemand": "1000",
+      "id": 1008
+    },
+    {
+      "name": "Sunny",
+      "phnum": "2341567",
+      "emailid": "sunny@gmail.com",
+      "address": "Maharashtra",
+      "powerdemand": "1000",
+      "id": 1009
+    },
+    {
+      "name": "Sunny",
+      "phnum": "2341567",
+      "emailid": "sunny@gmail.com",
+      "address": "Maharashtra",
+      "powerdemand": "1000",
+      "id": 1010
+    },
+    {
+      "name": "Rahul",
+      "phone": "",
+      "emailid": "rahul@gmail.com",
+      "address": "Pune",
+      "powerdemand": "",
+      "phnum": "1234567890",
+      "id": 1011
+    },
+    {
+      "name": "Manikrao",
+      "phnum": "6060606060",
+      "emailid": "manik@gmail.com",
+      "address": "Nagpur",
+      "powerdemand": 9160,
+      "id": 1013
+    }
+  ]
+}
