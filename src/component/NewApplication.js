@@ -44,9 +44,12 @@ const NewApplication = () =>{
         FAILURE_MESSAGE:"Failed to Register Application",
     });
     
-    const Utilities_URL="http://localhost:4050/utilities"
-    const Application_URL="http://localhost:4050/applications/"
-
+    //const Utilities_URL="http://localhost:4050/utilities"
+    //const Application_URL="http://localhost:4050/applications/"
+    
+    const Utilities_URL="https://electraq-data.onrender.com/utilities"
+    const Application_URL="https://electraq-data.onrender.com/applications"
+    
     useEffect(()=>{
         axios.get(Utilities_URL)
         .then((response)=>{
@@ -71,7 +74,7 @@ const NewApplication = () =>{
             return (power += data.quantity*Number(data.powerConsumption))
         })
         setApplication({...application,powerdemand:power})
-    };
+     };
 
     const handleChange = (event)=>{
         validation(event.target.name,event.target.value)
@@ -112,7 +115,7 @@ const NewApplication = () =>{
         event.preventDefault();
         let value1 = Object.values(validationMessage).every((value)=>{return value===""})
         if(value1){
-            axios.post("http://localhost:4050/applications",application)
+            axios.post(Application_URL,application)
             .then((response)=>{
                 setSuccessMessage(`Data Submitted Successfully with ID : ${response.data.id}`)
                 setErrorMessage("")

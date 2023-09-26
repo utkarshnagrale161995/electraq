@@ -25,7 +25,8 @@ const ViewApplication = () =>{
     };
 
     
-    const Application_URL="http://localhost:4050/applications/"
+   // const Application_URL="http://localhost:4050/applications/"
+     const Application_URL="https://electraq-data.onrender.com/applications/"
 
     const [appmessages]=useState({
         GETDATA_ERROR: "Could Not Find Any Application with the ID number",
